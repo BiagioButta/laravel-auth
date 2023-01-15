@@ -1,0 +1,57 @@
+$fa-font-path: "../fonts/font-awesome" !default;
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import '~bootstrap/scss/bootstrap';
+
+
+
+.debug{
+  border: 1px solid black;
+  min-height: 100px;
+}
+
+////// active link 
+.active-link{
+  font-weight: bold;
+}
+
+///// guest welcome page
+.profile-img{
+  width: 250px;
+  height: 290px;
+}
+.welcome-li-social{
+  display: flex;
+  li{
+    list-style: none;
+  font-size: 30px;
+  margin-left: 10px;
+  }
+  
+}
+
+
+#admin{
+  height: 100vh;
+  display:flex;
+
+  #wrapper{
+    flex-grow: 1;
+
+    header{
+        min-height:70px;
+
+        .img-profile{
+            height:2rem;
+            width:2rem;
+        }
+    }
+  }
+  #sidebarMenu {
+    background-color: black;
+    color: white;
+  }
+}
